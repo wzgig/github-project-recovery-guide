@@ -1,36 +1,3 @@
-可以，下面我直接帮你整理成适合上传到 GitHub 的版本。
-
-我先给你一个**推荐仓库英文名**，再给你一份可以直接保存成 `README.md` 的内容。
-
-## 推荐仓库英文名
-
-我最推荐这个：
-
-**`github-project-recovery-guide`**
-
-这个名字的优点是：
-
-* 一看就知道和 GitHub 项目恢复有关
-* 简洁，不生硬
-* 适合做教程型仓库
-
-你也可以考虑这些备选名：
-
-* `git-project-restore-guide`
-* `github-repo-recovery-guide`
-* `git-relink-and-replace-guide`
-* `github-project-relink-tutorial`
-
-## 推荐仓库描述（Description）
-
-你可以填这个：
-
-**A practical guide to restoring GitHub project links, recovering repositories after system reinstallation, resolving merge conflicts, and replacing remote repository contents.**
-
----
-
-## README.md（可直接复制粘贴）
-
 ````markdown
 # GitHub Project Recovery Guide After System Reinstallation
 
