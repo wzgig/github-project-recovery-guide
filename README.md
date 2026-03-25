@@ -30,6 +30,16 @@
 
 ---
 
+## 🚀 1. Fix Git Not Recognized <a id="fix-git-not-recognized"></a>
+
+### Problem
+
+Running the `git` command shows:
+
+```bash
+git: command not found
+```
+
 This usually means Git is not installed correctly or the environment variable is missing.
 
 ### Solution
@@ -52,7 +62,7 @@ If a Git version is displayed, the installation is successful.
 
 ------
 
-## 🔧 2. Recover a Project Without `.git`
+## 🔧 2. Recover a Project Without `.git` <a id="recover-a-project-without-git"></a>
 
 ### Scenario
 
@@ -103,7 +113,7 @@ git push -u origin main
 
 ------
 
-## ⚠️ 3. Resolve Merge Conflicts
+## ⚠️ 3. Resolve Merge Conflicts <a id="resolve-merge-conflicts"></a>
 
 ### Problem
 
@@ -143,7 +153,7 @@ git push -u origin main
 
 ------
 
-## 📁 4. Troubleshoot Wrong Project Path Issues
+## 📁 4. Troubleshoot Wrong Project Path Issues <a id="troubleshoot-wrong-project-path-issues"></a>
 
 ### Problem
 
@@ -183,7 +193,7 @@ If both commit IDs are the same, the local and remote branches are synchronized.
 
 ------
 
-## 🗂️ 5. Replace All Contents in a Remote Repository
+## 🗂️ 5. Replace All Contents in a Remote Repository <a id="replace-all-contents-in-a-remote-repository"></a>
 
 There are two common ways to replace all files in a GitHub repository.
 
@@ -240,7 +250,7 @@ Double-check the directory manually before proceeding.
 
 ------
 
-## 🖥️ 6. GitHub Desktop Remote Setup
+## 🖥️ 6. GitHub Desktop Remote Setup <a id="github-desktop-remote-setup"></a>
 
 If you use GitHub Desktop:
 
@@ -252,7 +262,7 @@ If you use GitHub Desktop:
 
 ------
 
-## 💡 7. Important Tips and Pitfalls
+## 💡 7. Important Tips and Pitfalls <a id="important-tips-and-pitfalls"></a>
 
 ### 1. Always keep the `.git` folder when backing up a project
 
@@ -285,7 +295,7 @@ git branch -r
 
 ------
 
-## ✅ Recommended Workflow
+## ✅ Recommended Workflow <a id="recommended-workflow"></a>
 
 If your project files still exist but `.git` is missing, the safest basic flow is:
 
