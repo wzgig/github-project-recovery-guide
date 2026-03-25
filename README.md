@@ -1,4 +1,3 @@
-~~~markdown
 <a id="top"></a>
 
 <h1 align="center">GitHub Project Recovery Guide</h1>
@@ -7,11 +6,13 @@
   A practical guide to restoring GitHub project links after system reinstallation, fixing Git issues, resolving merge conflicts, and replacing remote repository contents.
 </p>
 
+
 <p align="center">
   <img src="https://img.shields.io/badge/GitHub-Guide-black?style=for-the-badge&logo=github" alt="GitHub Guide" />
   <img src="https://img.shields.io/badge/Git-Tutorial-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Tutorial" />
   <img src="https://img.shields.io/badge/README-Friendly-blue?style=for-the-badge" alt="README Friendly" />
 </p>
+
 
 ---
 
@@ -28,17 +29,6 @@
 - [📄 License](#license)
 
 ---
-
-<a id="fix-git-not-recognized"></a>
-## 🚀 1. Fix Git Not Recognized
-
-### Problem
-
-Running the `git` command shows:
-
-```bash
-git: command not found
-~~~
 
 This usually means Git is not installed correctly or the environment variable is missing.
 
@@ -61,8 +51,6 @@ If a Git version is displayed, the installation is successful.
 > After editing the environment variable, restart your terminal before testing.
 
 ------
-
-
 
 ## 🔧 2. Recover a Project Without `.git`
 
@@ -115,8 +103,6 @@ git push -u origin main
 
 ------
 
-
-
 ## ⚠️ 3. Resolve Merge Conflicts
 
 ### Problem
@@ -157,8 +143,6 @@ git push -u origin main
 
 ------
 
-
-
 ## 📁 4. Troubleshoot Wrong Project Path Issues
 
 ### Problem
@@ -198,8 +182,6 @@ If both commit IDs are the same, the local and remote branches are synchronized.
 - Confirm you are editing the same folder that Git is tracking
 
 ------
-
-
 
 ## 🗂️ 5. Replace All Contents in a Remote Repository
 
@@ -258,8 +240,6 @@ Double-check the directory manually before proceeding.
 
 ------
 
-
-
 ## 🖥️ 6. GitHub Desktop Remote Setup
 
 If you use GitHub Desktop:
@@ -271,8 +251,6 @@ If you use GitHub Desktop:
 5. Save the settings
 
 ------
-
-
 
 ## 💡 7. Important Tips and Pitfalls
 
@@ -306,8 +284,6 @@ git branch -r
 > Always confirm the remote default branch before pushing.
 
 ------
-
-
 
 ## ✅ Recommended Workflow
 
