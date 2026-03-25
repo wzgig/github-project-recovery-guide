@@ -1,15 +1,3 @@
-下面是可以直接发布到 GitHub 的 **README.md 成品版**，已经包含：
-
-- 顶部美化
-- 徽章
-- 可跳转目录
-- 手动锚点
-- `Back to top`
-- 提示块
-- 更适合 GitHub 展示的排版
-
-直接复制保存为 `README.md` 即可。
-
 ~~~markdown
 <a id="top"></a>
 
